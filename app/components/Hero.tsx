@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full z-10 bg-gradient-to-b from-[#ffffff8e] to-[#f4edeb]"></div>
 
       {/* Overlay Content */}
-      <div className="relative z-20 flex flex-col items-center">
+      <div className="relative top-[100px] z-20 flex flex-col items-center">
         <Image
           src={logo}
           alt="logo"
